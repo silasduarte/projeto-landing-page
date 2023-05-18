@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap">
+  <link rel="stylesheet" href="style.css">
+<link rel="stylesheet" media="(max-width: 800px)" href="example.css" />
+  <title>Document</title>
+</head>
+
+<body>
+  <div class="landing-page">
+    <div class="container">
+      <div class="header-area">
+        <div class="logo"><img src="./img/logo.avif"></div>
+        <ul class="links">
+          <li onclick="scrollInto('home')">Inicio</li>
+          <li onclick="scrollInto('contato')">Contato</li>
+          <li onclick="scrollInto('planos')">Planos</li>
+          <li onclick="scrollInto('vida')">Info</li>
+          <li onclick="scrollInto('text-quem')">Quem Somos</li>
+        </ul>
+      </div>
+      <section id="home">
+        <div class="home">
+          <div class="home-img">
+            <img src="img/imagem1.jpg" alt="imagem1">
+          </div>
+          <div class="home-texto">
+            <h1 id="seguro1">Seguros de vida!</h1>
+            <p id="seguro">Descubra todos os planos e benefícios dos nossos seguros</p>
+          </div>
+      </section>
+      <section class="news-list">
+        <article class="news-item">
+          <div class="thumb">
+            <img id="vida" alt="vidaflex" title="vidaflex" src="img/vida-flex-bubbles.jpg">
+          </div>
+          <div class="news-txt">
+            <h3>Vida Flex</h3>
+            <p>Coberturas e serviços para o seu bem-estar, assistência domiciliar e assistência funeral. Conte conosco
+              para viver com tranquilidade</p>
+          </div>
+        </article>
+        <article class="news-item">
+          <div class="thumb">
+            <img alt="acidentes" title="acidentes" src="img/acidentes-pessoais-bubbles.jpg">
+          </div>
+          <div class="news-txt">
+            <h3>Acidentes Pessoais</h3>
+            <p>Segurança financeira para você e a sua família em caso de morte acidental e invalidez por acidade.
+              Confira as coberturas e serviços.</p>
+          </div>
+        </article>
+        <article class="news-item">
+          <div class="thumb">
+            <img alt="estendida" title="estendida" src="img/estendida-bubbles.jpg">
+          </div>
+          <div class="news-txt">
+            <h3>Proteção Estendida</h3>
+            <p>Seguro de acidentes pessoais e assistência funeral para o segurado e mais cinco pessoas. Conheça as
+              vantagens do nosso seguro.</p>
+          </div>
+        </article>
+      </section>
+
+    </div>
+    <section>
+      <div class="image">
+        <img src="./img/logo.avif">
+      </div>
+      <div class="clearfix"></div>
+    </section>
+    <section id="planos">
+      <div class="plano">
+        <h1>Plano Basic</h1>
+        <ul>
+          <li>Cobertura personalizada para o seu estilo de vida.</li>
+          <li>Garante soluções flexíveis para o seu bem-estar, assistências para o dia a dia e cuidado com quem você
+            ama.</li>
+        </ul>
+
+
+      </div>
+      <div class="plano">
+        <h1>Plano Premium</h1>
+        <ul>
+          <li>Pode ser contratado em qualquer fase da vida: dos 16 aos 79 anos.</li>
+          <li>Oferece proteção financeira em casos de fraturas, queimaduras e muitas outras eventualidades.</li>
+        </ul>
+
+      </div>
+
+    </section>
+    <section class="quem-Somos">
+      <h1>Quem somos?</h1>
+      <p id="text-quem">Nós da 4Safe somos uma empresa de seguros de vida comprometida em fornecer proteção financeira e tranquilidade para você e sua família. 
+        Com anos de experiência no mercado, oferecemos uma ampla gama de planos de seguro de vida para atender às necessidades individuais de nossos clientes. 
+        Nosso objetivo é fornecer um serviço excepcional e garantir que você esteja protegido em todos os momentos. 
+        Como empresa, valorizamos a transparência, a honestidade e a confiança, e trabalhamos incansavelmente para ganhar e manter a confiança de nossos clientes. 
+        Se você está procurando segurança financeira para si mesmo ou para aqueles que você ama, estamos aqui para ajudá-lo a encontrar o plano de seguro de vida perfeito para suas necessidades.</p>
+    </section>
+    <section>
+      
+    <div class="formulario">
+      <h1>Entre em contato!</h1>
+      <form action="#" class="form-contact" method="post" tabindex="1">
+        <input type="text" class="form-contact-input" name="nome" placeholder="Nome" required />
+        <input type="email" class="form-contact-input" name="email" placeholder="Email" required />
+        <input type="tel" class="form-contact-input" name="tel" placeholder="Telefone" />
+        <textarea class="form-contact-textarea" name="conteudo" placeholder="Deixe uma mensagem" required></textarea>
+        <button type="submit" class="form-contact-button">Enviar</button>
+      </form>
+    </div>
+  </section>
+    <footer id="contato">
+      <p>Endereço: Rua Safe, 123 - Bairro Safe - Campinas/SP - CEP: 00000-000</p>
+      <p>Contato: (19)9 9999-9999 <br> E-mail: 4safeseguros@4safeseguros.com</p>
+      <div>
+        <a href="https://www.instagram.com/" target="_blank"><img class="sociais-icone" src="img/instagram.png" alt="Instagram"></a>
+        <a href="https://www.facebook.com/" target="_blank"><img class="sociais-icone" src="img/facebook.png"
+            alt="Facebook"></a>
+        <a href="https://twitter.com/" target="_blank"><img class="sociais-icone" src="img/twitter.png" alt="Twitter"></a>
+        <p>
+          Copyright © 2023 4Safe Seguros
+        </p>
+      </div>
+    </footer>
+
+  </div>
+  </div>
+  <script src="js.js"></script>
+</body>
+
+</html>
